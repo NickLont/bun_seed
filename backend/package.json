@@ -16,6 +16,11 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "lint": "npx eslint \"./**/*.ts\" --cache --cache-strategy content --fix"
+    "lint": "npx eslint \"./**/*.ts\" --cache --cache-strategy content --fix",
+    "watch": "bun --watch index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.6.3"
   }
 }
